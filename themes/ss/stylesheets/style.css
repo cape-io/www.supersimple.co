@@ -46,6 +46,7 @@ html, body {
 .container {
   margin: 0 auto;
   text-align: center;
+  width: 100%;
 }
 
 .page-header {
@@ -53,11 +54,13 @@ html, body {
   border-bottom: 3px solid #30363B;
   border-top: 20px solid #30363B;
   padding: 40px;
-  margin: -20px 0 40px;
+  margin: 0 0 40px;
 }
 
 .page-header h1 {
   font-size: 2em;
   font-weight: 800;
   line-height: 2;
+  margin: 0;
+  margin-top: 20px;
 }
