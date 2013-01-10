@@ -36,6 +36,7 @@
 /* Override some defaults */
 html, body {
   background-color: #F6F8FA;
+  color: #30363B;
   font-family: 'Open Sans', "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 400;
