@@ -66,6 +66,13 @@ html, body {
 }
 
 .content p {
+  font-family: 'Open Sans', "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
-  max-width: 540px;
+  line-height: 1.5;
+  max-width: 400px;
+  margin: 0 auto 20px auto;
+}
+
+footer {
+  margin-top: 80px;
 }
