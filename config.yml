@@ -3,11 +3,11 @@
 
 RuhohSpec: "2.0.alpha"
 
-production_url: "http://sample.com"
+production_url: "http://www.supersimple.co"
 base_path: "/"
 
 theme:
-  name: "twitter"
+  name: "ss"
 
 posts:
   permalink: "/:categories/:title/"

@@ -1,16 +1,11 @@
-title : Blog Title
+title : Super Simple
 tagline: Blog Tagline
 author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Sundays Energy
+  email : info@sundaysenergy.com
+  github : sundaysenergy
+  twitter : sundaysenergy
 
 navigation :
-  - archive.html
-  - tags.html
-  - categories.html
-  - pages.html
   - about.md
-  
+
