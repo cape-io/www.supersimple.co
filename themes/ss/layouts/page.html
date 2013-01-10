@@ -3,11 +3,10 @@ layout : default
 ---
 
 <div class="page-header">
+    <img src="{{urls.theme}}/media/sslogo.jpg" alt="{{site.title}}" />
   <h1>{{ page.title }} {{# page.tagline }} <small>{{ . }}</small>{{/ page.tagline }}</h1>
 </div>
 
 <div class="row">
-  <div class="span8">
     {{{ page.content }}}
-  </div>
 </div>
