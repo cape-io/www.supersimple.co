@@ -19,7 +19,7 @@ _(Click on the images for a larger version and basic instructions)_
 
 At this point, you can either make a test site, or add the live website at a domain you have purchased.
 
-1. If you want to create a test site, use: something.verysimple.co (where "something" is any word you want. If you need multiple words, include dashes between the words).
+1. If you want to create a test site, use: something.supersimple.co (where "something" is any word you want. If you need multiple words, include dashes between the words).
 
 1. If you wish to use a purchased domain, name the folder: www.mydomain.com
   
