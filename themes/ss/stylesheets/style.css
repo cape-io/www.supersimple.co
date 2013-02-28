@@ -45,7 +45,6 @@ html, body {
 
 .container {
   margin: 0 auto;
-  text-align: center;
   width: 100%;
 }
 
@@ -55,6 +54,7 @@ html, body {
   border-top: 20px solid #30363B;
   padding: 40px;
   margin: 0 0 40px;
+  text-align: center;
 }
 
 .page-header h1 {
@@ -75,6 +75,7 @@ html, body {
 
 footer {
   margin-top: 80px;
+  text-align: center;
 }
 
 .instructions img {
