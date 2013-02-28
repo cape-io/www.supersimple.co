@@ -69,7 +69,7 @@ html, body {
   font-family: 'Open Sans', "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
   line-height: 1.5;
-  max-width: 550px;
+  max-width: 585px;
   margin: 0 auto 20px auto;
 }
 
@@ -79,9 +79,9 @@ footer {
 }
 
 .instructions img {
-  width: 550px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  width: 585px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 h3 {
