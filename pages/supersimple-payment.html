@@ -1,0 +1,80 @@
+---
+title: 'Supersimple subscription plans'
+---
+
+  <!-- Recurlyjs -->
+  <script>
+    var recurly_signature = '';
+    var subscription_type = '211yr-static-hosting';
+
+    if ($.query.get('subscription_type')) {
+      subscription_type = $.query.get('subscription_type');
+    }
+    
+    $.ajax({
+      dataType: "json",
+      url: "http://recurly.webscript.io/supersimple?type=" + subscription_type,
+      context: document.body,
+      async: false,
+    }).done(function(data) {
+      recurly_signature  = data.signature;
+    });
+    
+    Recurly.config({
+      subdomain: 'sundaysenergy',
+      currency: 'USD',
+      country: 'US'
+    });
+    
+    console.log(recurly_signature);
+    
+    Recurly.buildSubscriptionForm({
+      target: '#recurly-transaction',
+      signature: recurly_signature,
+      planCode: subscription_type,
+      enableCoupons: true,
+      successURL: 'http://connect.supersimple.co',
+    });
+  </script>
+  
+  <div id="supersimple-main">
+    <!-- Plan navigation -->
+    <select id="supersimple_plan">
+      <option value="" selected>-Select a membership plan-</option>
+      <option value="211mo-static-hosting">$5.95 per month</option>
+      <option value="211yr-static-hosting">$60 per year</option>
+    </select>
+  </div>
+                          
+  <script>
+    $(function(){
+      // bind change event to select
+      $('#supersimple_plan').bind('change', function () {
+          var recurly_signature = '';
+          var plan = $(this).val(); 
+          if (plan) { 
+            $.ajax({
+              dataType: "json",
+              url: "http://recurly.webscript.io/supersimple?type=" + plan,
+              context: document.body,
+              async: false,
+            }).done(function(data) {
+              recurly_signature  = data.signature;
+            });
+            console.log(recurly_signature);
+            Recurly.buildSubscriptionForm({
+              target: '#recurly-transaction',
+              signature: recurly_signature,
+              planCode: plan,
+              enableCoupons: true,
+              successURL: 'http://connect.supersimple.co',
+            });
+          }
+          return false;
+      });
+    });
+  </script>
+  
+  <!--Insert the recurlyjs payment information -->
+  <div id="recurly-transaction">
+  </div>
