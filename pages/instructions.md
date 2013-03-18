@@ -29,4 +29,4 @@ Your changes will then be published to the internet via Amazon S3.
 
 _Note: additional site-specific instructions will be generated and placed in your site directory with the README.txt filename._
 
-Thanks for using SuperSimple!
+Thanks for using SuperSimple!!
