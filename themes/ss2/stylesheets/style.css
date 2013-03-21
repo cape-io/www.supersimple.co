@@ -7,7 +7,7 @@
 
 body{ 
   font:16px/26px;
-  color: #5d5d5d;background:url("../img/pattern/debut_light.png") #fef6f6;
+  color: #5d5d5d;background:url(../media/debut_light.png) #fef6f6;
   font-family: 'Source Sans Pro', sans-serif;
 	}
 a{
@@ -187,13 +187,13 @@ h3 {
 /* ===== @home ===== */
 
 .separator {
-    background: url("../img/line-rose.gif") no-repeat center center;
+    background: url(../media/line-rose.gif) no-repeat center center;
     margin: 50px 0;
     text-align: center;
     width: 100%;
 }
 .thumbs-up {
-    background:url("../img/pattern/debut_light.png");
+    background:url(../media/debut_light.png);
     display: block;
     margin: 0 auto;
     padding: 0 5px;
@@ -219,7 +219,7 @@ h3 {
 /* ===== @service ===== */
 
 .service-pattern{
-  background: url("../img/pattern/subtle_dots.png") repeat;
+  background: url(../media/subtle_dots.png) repeat;
   padding-bottom: 100px;
   border-top: 10px solid #e4333c;
 }
@@ -262,7 +262,7 @@ h3 {
 /* ===== @work ===== */
  
 .work-pattern{
-  background: url("../img/pattern/striped_lens.png");
+  background: url(../media/striped_lens.png);
 }
 .thumbs {
   position: relative;
@@ -317,7 +317,7 @@ h3 {
 /* ===== @about ===== */
 
 .about-pattern {
-  background-image: url(../img/about.jpg);
+  background-image: url(../media/social/about.jpg);
   background-position: 0 center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -439,16 +439,16 @@ h3 {
   color: #e4333c;
 }  
 .ch-img-1 { 
-  background-image: url(../img/social/twitter.jpg);
+  background-image: url(../media/social/twitter.jpg);
 }
 .ch-img-2 { 
-  background-image: url(../img/social/googleplus.jpg);
+  background-image: url(../media/social/googleplus.jpg);
 }
 .ch-img-3 { 
-  background-image: url(../img/social/facebook.jpg);
+  background-image: url(../media/social/facebook.jpg);
 }
 .ch-img-4 { 
-  background-image: url(../img/social/pinterest.jpg);
+  background-image: url(../media/social/pinterest.jpg);
 }
 .ch-info h3 {
   font-size: 32px;
@@ -490,7 +490,7 @@ h3 {
 }
 
 .contact-pattern{
-  background: url("../img/pattern/tiny_grid.png") repeat scroll;
+  background: url(../media/tiny_grid.png) repeat scroll;
 }
 .contact-pattern i{
   color: #e4333c;
