@@ -54,11 +54,11 @@ ul.icons {
 h3 {
   line-height: 20px;
 }
-.title{
+/*.title{
   border-left: 5px solid #e4333c;
   padding: 0px 1px 1px 10px;
   margin: 70px 0 25px 0;
-}
+}*/
 .title-social{
   color: #FFF;
   text-align: center;
@@ -683,6 +683,7 @@ body{
   opacity: 0.2;
 }
 
-
-
+.recurly .plan .name {
+  padding-top: 5px;
+  padding-bottom: 15px;
 }
