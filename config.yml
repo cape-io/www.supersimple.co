@@ -7,7 +7,7 @@ production_url: "http://www.supersimple.co"
 base_path: "/"
 
 theme:
-  name: "ss"
+  name: "ss2"
 
 posts:
   permalink: "/:categories/:title/"
