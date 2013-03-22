@@ -1,4 +1,6 @@
 _jekyll_s3.yml
 compiled/*
-
+Gemfile.lock
+Gemfile
 /.DS_Store
+config.ru
