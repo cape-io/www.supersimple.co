@@ -14,13 +14,13 @@ $(function() {
 /* -------------------- maps --------------------- */
 
 
-$("#maps").gmap3({
-    marker:{
-      address: "2637 27th Ave S Mpls MN 55406"
-      },
-    map:{
-      options:{
-        zoom: 14
-      }
-    }
-});
+// $("#maps").gmap3({
+//     marker:{
+//       address: "2637 27th Ave S Mpls MN 55406"
+//       },
+//     map:{
+//       options:{
+//         zoom: 14
+//       }
+//     }
+// });

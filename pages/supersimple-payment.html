@@ -7,11 +7,11 @@ title: 'Supersimple subscription plans'
     var recurly_signature = '';
     var subscription_type = '211yr-static-hosting';
 
-    if ($.query.get('subscription_type')) {
-      subscription_type = $.query.get('subscription_type');
+    if (jQuery.query.get('subscription_type')) {
+      subscription_type = jQuery.query.get('subscription_type');
     }
-    
-    $.ajax({
+
+    jQuery.ajax({
       dataType: "json",
       url: "http://recurly.webscript.io/supersimple?type=" + subscription_type,
       context: document.body,
@@ -19,15 +19,15 @@ title: 'Supersimple subscription plans'
     }).done(function(data) {
       recurly_signature  = data.signature;
     });
-    
+
     Recurly.config({
       subdomain: 'sundaysenergy',
       currency: 'USD',
       country: 'US'
     });
-    
+
     console.log(recurly_signature);
-    
+
     Recurly.buildSubscriptionForm({
       target: '#recurly-transaction',
       signature: recurly_signature,
@@ -36,7 +36,7 @@ title: 'Supersimple subscription plans'
       successURL: 'http://connect.supersimple.co',
     });
   </script>
-  
+
   <div id="supersimple-main">
     <!-- Plan navigation -->
     <select id="supersimple_plan">
@@ -45,15 +45,15 @@ title: 'Supersimple subscription plans'
       <option value="211yr-static-hosting">$60 per year</option>
     </select>
   </div>
-                          
+
   <script>
     $(function(){
       // bind change event to select
       $('#supersimple_plan').bind('change', function () {
           var recurly_signature = '';
-          var plan = $(this).val(); 
-          if (plan) { 
-            $.ajax({
+          var plan = $(this).val();
+          if (plan) {
+            jQuery.ajax({
               dataType: "json",
               url: "http://recurly.webscript.io/supersimple?type=" + plan,
               context: document.body,
@@ -74,7 +74,7 @@ title: 'Supersimple subscription plans'
       });
     });
   </script>
-  
+
   <!--Insert the recurlyjs payment information -->
   <div id="recurly-transaction">
   </div>

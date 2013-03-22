@@ -8,11 +8,11 @@
         "parallax-content-slider.css",
         "style.css",
       ],
-     
+
       "widgets" : {
         "google_prettify" : "twitter-bootstrap.css"
       }
-      
+
     },
 
     "javascripts" : {
@@ -23,10 +23,12 @@
         "jquery.anchor.js",
         "jquery.cslider.js",
         "modernizr.custom.28468.js",
+        "jquery.query.js",
         "custom.js",
+        "recurly.min.js",
       ]
     },
-    
+
     "manifest" : {
       "author" : "Sundays Energy",
       "website" : "http://www.sundaysenergy.com"
