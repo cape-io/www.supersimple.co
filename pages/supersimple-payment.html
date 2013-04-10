@@ -5,7 +5,7 @@ title: 'Supersimple subscription plans'
   <!-- Recurlyjs -->
   <script>
     var recurly_signature = '';
-    var subscription_type = '211yr-static-hosting';
+    var subscription_type = '2-1-1';
 
     if (jQuery.query.get('subscription_type')) {
       subscription_type = jQuery.query.get('subscription_type');
@@ -40,8 +40,7 @@ title: 'Supersimple subscription plans'
   <div id="supersimple-main">
     <!-- Plan navigation -->
     <select id="supersimple_plan">
-      <option value="" selected>-Select a membership plan-</option>
-      <option value="2-1-1">$5.95 per month</option>
+      <option value="2-1-1" selected>$5.95 per month</option>
       <option value="2-1-2">$60 per year</option>
     </select>
   </div>
