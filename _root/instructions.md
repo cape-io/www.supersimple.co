@@ -23,8 +23,10 @@ _NOTE: You must own the domain and have access to change the DNS records. The fo
 
 For custom domains you must add a CNAME record for the domain name you titled your folder with in step 4 above.
 
-**Option 1** To access your website over the Akamai CDN the CNAME for you subdomain should be www.example.com.verysimple.co where 'example.com' is your domain name and 'www' is your subdomain.
+**Option 1** To access your website over the Akamai CDN the CNAME for you subdomain should be www.example.com.verysimple.co where 'example.com' is your domain name and 'www' is your subdomain. Alternatively you can visit http://www.example.com.cdn.cape.io/cname.txt and copy the text that is shown.
 
 **Option 2** To access your website directly from our web server the CNAME should be static.supersimple.co
+
+**Option 3** To view your site without using a cname you can use www.example.com.static.supersimple.co
 
 Thanks for using SuperSimple! Please contact info@sundaysenergy.com with any questions.
