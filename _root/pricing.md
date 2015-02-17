@@ -5,9 +5,9 @@ description:
 
 ---
 
-|Price|Data Transfer|
-|-----|-------------|
-|Free |50MB per month|
-|$5.00|5GB per month |
+$4.50 per month.
 
-Larger plans are available on request. Email info@sundaysenergy.com.
+* Unlimited sites
+* Unlimited files
+* Unlimited bandwidth
+* 1000 img dynamic image processing renders
