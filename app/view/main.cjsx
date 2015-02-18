@@ -3,6 +3,8 @@ React = require 'react'
 
 Intro = require './intro/intro'
 Content = require './content/content'
+Instructions = require './content/instructions'
+Price = require './content/pricing'
 
 module.exports = React.createClass
   render: ->
@@ -10,4 +12,6 @@ module.exports = React.createClass
     <div className="container">
       <Intro data={data} />
       <Content content={data.content} />
+      <Instructions />
+      <Price />
     </div>
