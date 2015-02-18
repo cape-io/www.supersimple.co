@@ -1,0 +1,49 @@
+{
+  "title": "Super Simple",
+  "tagline": "Your files, cloud powered!",
+  "description": "Custom domains and dynamic processing for your Dropbox files.",
+  "intro": "Host static websites, resize images, convert markdown to html, json directory indexes.",
+  "startTxt": "Start now and receive 1000 file views free.",
+  "author": {
+    "name": "CAPE.io",
+    "email": "info@cape.io",
+    "github": "cape-io",
+    "twitter": "sundaysenergy"
+  },
+  "price": 456,
+  "connectUrl": "http://connect.supersimple.co/",
+  "builtDesigned": [
+    {
+      "name": "OOKB",
+      "link": "http://www.ookb.co"
+    },
+    {
+      "name": "CAPE",
+      "link": "http://www.cape.io"
+    }
+  ],
+  "content": {
+    "features": [
+      {
+        "content": "<p>By storing files in Dropbox you are able to access and edit those files from almost anywhere. Hundreds of Applications and Websites seemlessly integrate with Dropbox. You can edit files on your personal computer, mobile phone, or just about any internet connected device. Never worry about FTP clients or connection protocols again!</p>",
+        "filename": "access",
+        "title": "Universal Access"
+      },
+      {
+        "content": "<p>Each directory within every site has a special index file that contains a json index of its contents. Just visit <code>/_index.json</code> inside any directory. Especially handy on a directory of images, load the index with jquery or into your static site generator for a listing of files or images.</p>",
+        "filename": "api",
+        "title": "Directory Listing API"
+      },
+      {
+        "content": "<p>Any directory within <code>Apps/supersimple/</code> can have its own custom domain name. You&#39;re also free to use a subdomain of <code>.verysimple.co</code> if you like. There is no limit to the number of sites you can host.</p>",
+        "filename": "domain",
+        "title": "Custom Domains"
+      },
+      {
+        "content": "<p>Using the power of Dropbox and the cloud we bring you a whole new website experience. Edit your files anywhere your Dropbox is available, and each time you save your website gets updated automatically.</p>",
+        "filename": "dropbox",
+        "title": "Dropbox Websites"
+      }
+    ]
+  }
+}

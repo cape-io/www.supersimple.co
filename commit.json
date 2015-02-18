@@ -1,0 +1,70 @@
+{
+  "sha": "068c6fb1767d78f63acdf8d2196edfbf2547b198",
+  "commit": {
+    "author": {
+      "name": "Kai Curry",
+      "email": "kai@sundaysenergy.com",
+      "date": "2014-11-19T21:57:52Z"
+    },
+    "committer": {
+      "name": "Kai Curry",
+      "email": "kai@sundaysenergy.com",
+      "date": "2014-11-19T21:57:52Z"
+    },
+    "message": "save embed info.",
+    "tree": {
+      "sha": "a0aa5bc60027c9b0da20b00f31954644fa37af81",
+      "url": "https://api.github.com/repos/cape-io/mica.ezle.io/git/trees/a0aa5bc60027c9b0da20b00f31954644fa37af81"
+    },
+    "url": "https://api.github.com/repos/cape-io/mica.ezle.io/git/commits/068c6fb1767d78f63acdf8d2196edfbf2547b198",
+    "comment_count": 0
+  },
+  "url": "https://api.github.com/repos/cape-io/mica.ezle.io/commits/068c6fb1767d78f63acdf8d2196edfbf2547b198",
+  "html_url": "https://github.com/cape-io/mica.ezle.io/commit/068c6fb1767d78f63acdf8d2196edfbf2547b198",
+  "comments_url": "https://api.github.com/repos/cape-io/mica.ezle.io/commits/068c6fb1767d78f63acdf8d2196edfbf2547b198/comments",
+  "author": {
+    "login": "webmasterkai",
+    "id": 969456,
+    "avatar_url": "https://avatars.githubusercontent.com/u/969456?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/webmasterkai",
+    "html_url": "https://github.com/webmasterkai",
+    "followers_url": "https://api.github.com/users/webmasterkai/followers",
+    "following_url": "https://api.github.com/users/webmasterkai/following{/other_user}",
+    "gists_url": "https://api.github.com/users/webmasterkai/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/webmasterkai/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/webmasterkai/subscriptions",
+    "organizations_url": "https://api.github.com/users/webmasterkai/orgs",
+    "repos_url": "https://api.github.com/users/webmasterkai/repos",
+    "events_url": "https://api.github.com/users/webmasterkai/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/webmasterkai/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "webmasterkai",
+    "id": 969456,
+    "avatar_url": "https://avatars.githubusercontent.com/u/969456?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/webmasterkai",
+    "html_url": "https://github.com/webmasterkai",
+    "followers_url": "https://api.github.com/users/webmasterkai/followers",
+    "following_url": "https://api.github.com/users/webmasterkai/following{/other_user}",
+    "gists_url": "https://api.github.com/users/webmasterkai/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/webmasterkai/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/webmasterkai/subscriptions",
+    "organizations_url": "https://api.github.com/users/webmasterkai/orgs",
+    "repos_url": "https://api.github.com/users/webmasterkai/repos",
+    "events_url": "https://api.github.com/users/webmasterkai/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/webmasterkai/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "ead8331de27d63a5668da59c61b0824aab5d8083",
+      "url": "https://api.github.com/repos/cape-io/mica.ezle.io/commits/ead8331de27d63a5668da59c61b0824aab5d8083",
+      "html_url": "https://github.com/cape-io/mica.ezle.io/commit/ead8331de27d63a5668da59c61b0824aab5d8083"
+    }
+  ]
+}
