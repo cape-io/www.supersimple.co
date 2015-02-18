@@ -1,10 +1,22 @@
-title : Super Simple CDN
-tagline: Use Dropbox or Github
+title : Super Simple
+tagline: Your files, cloud powered!
+description: Custom domains and dynamic processing for your Dropbox files.
+intro: Host static websites, resize images, convert markdown to html, json directory indexes.
+
+startTxt: Start now and receive 1000 file views free.
 author :
-  name : Sundays Energy
-  email : info@sundaysenergy.com
-  github : sundaysenergy
+  name : CAPE.io
+  email : info@cape.io
+  github : cape-io
   twitter : sundaysenergy
 
-navigation :
+price : 456
+connectUrl: http://connect.supersimple.co/
 
+builtDesigned:
+  -
+    name: OOKB
+    link: http://www.ookb.co
+  -
+    name: CAPE
+    link: http://www.cape.io
