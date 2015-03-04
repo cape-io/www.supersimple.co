@@ -2,7 +2,7 @@
 title : Instructions
 ---
 
-1. If you haven't already, create a free (up to 2GB of space) Dropbox account at https://www.dropbox.com/. Download and install the Dropbox application onto your computer.
+1. If you haven't already, [create a free (2.5GB of space) Dropbox account][1]. Download and install the Dropbox application onto your computer.
 1. Click the "Start now" button at the top of this page.
 1. If you're not signed in at dropbox.com, you will see the message: "SuperSimple wants to link to your Dropbox. Please sign in or register." After signing in, you will see a message similar to this:
 > The app Super Simple Websites would like to connect with your Dropbox.
@@ -10,6 +10,7 @@ title : Instructions
 > - This app will create a folder named supersimple in your Dropbox. The app will only have access to this folder.
 
 1. Click "Allow" to grant SuperSimple access to `Apps/supersimple` within your dropbox. **Note:** you must click "Allow" within a couple minutes or you'll see a message saying the "session has expired".  If that's the case, return here and start again.
+1. You should receive an email from Dropbox notifying you that you've connected with SuperSimple. You should also receive a welcome email from us explaining how to setup a custom domain.
 1. Open the "Dropbox" folder on your computer.
 1. Open the "Apps" folder.
 1. Open the "supersimple" folder. It will be empty.
@@ -30,3 +31,5 @@ title : Instructions
 
 
 Thanks for using SuperSimple! Please contact info@cape.io with any questions.
+
+[1]: https://db.tt/XoSMS2Iq

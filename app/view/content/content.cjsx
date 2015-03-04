@@ -9,7 +9,7 @@ module.exports = React.createClass
   render: ->
     {features} = @props.content
     <div id="info">
-      <h3>Features</h3>
+      <h2>Features</h2>
       {
         _.map features, (item) ->
           <Feature item={item} key={item.filename} />
